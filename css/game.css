@@ -32,10 +32,10 @@ body {
 }
 
 .info-container {
-    width: 900px;
+    width: 90%;
     margin: 20px auto 0;
     background-color: #f6f6f6;
-    padding: 20px;
+    padding: 2%;
     font-size: 24px;
     overflow: hidden;
     border: 2px solid #2196f3;
@@ -54,9 +54,9 @@ body {
 
 .memory-game-blocks {
     display: flex;
-    width: 715px;
+    width: 70.15%;
     flex-wrap: wrap;
-    margin: 20px auto;
+    margin: 0 auto;
 }
 
 .memory-game-blocks.no-clicking {
@@ -64,24 +64,24 @@ body {
 }
 
 .memory-game-blocks .game-block {
-    height: 100px;
+    height: 80px;
     transition: transform .5s;
     transform-style: preserve-3d;
     cursor: pointer;
     position: relative;
-    flex: 1 0 100px;
-    margin: 0 10px 20px;
+    flex: 1 0 20%;
+    margin: 5px 5px 5px;
 }
 
 .memory-game-blocks .game-block .front {
     background-color: #333;
-    line-height: 100px;
+    line-height: 70px;
 }
 
 .memory-game-blocks .game-block .front:before {
     content: "!";
     color: #fff;
-    font-size: 100px;
+    font-size: 60px;
     font-weight: bold;
 }
 
@@ -91,8 +91,8 @@ body {
 }
 
 .memory-game-blocks .game-block .back img {
-    width: 113px;
-    height: 89px;
+    width: 99%;
+    height: 99%;
 }
 
 .memory-game-blocks .game-block .face {
